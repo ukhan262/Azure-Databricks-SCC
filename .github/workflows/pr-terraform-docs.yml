@@ -24,6 +24,7 @@ jobs:
           output-method: inject
           git-push: "true"
           git-commit-message: "docs: update README.md with terraform-docs"
+          recursive: true
           recursive-path: terraform-azurerm-databricks
           template: |-
             <!-- BEGIN_TF_DOCS -->
